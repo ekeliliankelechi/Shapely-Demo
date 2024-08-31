@@ -1,0 +1,633 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+/* nav bar stars here  */
+.nav-bar-section-div {
+  height: 12vh;
+  background-color: white;
+}
+.nav-bar-parent-div {
+  height: 12vh;
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(64, 64, 64);
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-bar-parent-div h1 {
+  font-weight: 100;
+}
+.nav-bar-parent-div div {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.nav-bar-parent-div button {
+  border-color: transparent;
+  background-color: transparent;
+}
+#search {
+  color: blue;
+}
+#menu {
+  color: blue;
+  display: none;
+}
+/* nav bar ends here  */
+/* hero page starts here  */
+.hero-page-section-div {
+  height: 100vh;
+  background-image: url(water.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.hero-page-parent-div {
+  height: 100vh;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.hero-page-parent-div h1 {
+  text-align: center;
+  font-size: 70px;
+  width: 80%;
+  font-weight: 100;
+}
+.hero-page-parent-div p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 100s;
+  text-align: center;
+}
+.hero-page-parent-div div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.hero-page-parent-div div .read {
+  width: 200px;
+  height: 50px;
+  border-color: transparent;
+  background-color: blueviolet;
+  color: white;
+}
+.hero-page-parent-div div .DOWNLOAD {
+  width: 200px;
+  height: 50px;
+  border-style: solid;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+}
+/* hero page ends here  */
+/* seo section starts hetre  */
+.seo-section-div {
+  height: 70vh;
+  background-color: white;
+}
+.seo-parent-div {
+  height: 70vh;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.seo-parent-div div {
+  width: 50%;
+  height: 50vh;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.seo-parent-div div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.seo-parent-div div h2 {
+  font-weight: 100;
+  font-size: xx-large;
+}
+.seo-parent-div div p {
+  color: rgb(80, 80, 80);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+.seo-parent-div div button {
+  width: 200px;
+  height: 50px;
+  border-color: transparent;
+  background-color: blueviolet;
+  color: white;
+}
+/* seo section ends here  */
+/* portfolio section starts here  */
+.portfolio-section-div {
+  height: 70vh;
+  background-color: rgb(243, 243, 243);
+}
+.portfolio-parent-div {
+  height: 70vh;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio-parent-div div {
+  width: 50%;
+  height: 50vh;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.portfolio-parent-div div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.portfolio-parent-div div h2 {
+  font-weight: 100;
+  font-size: xx-large;
+}
+.portfolio-parent-div div p {
+  color: rgb(80, 80, 80);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+.portfolio-parent-div div button {
+  width: 200px;
+  height: 50px;
+  border-color: transparent;
+  background-color: blueviolet;
+  color: white;
+}
+/* portfolio section ends here  */
+/* Small Parallax Section starts here  */
+.paraiiax-section-div {
+  height: 80vh;
+  background-image: url(water.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.parallax-parent-div {
+  height: 80vh;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.parallax-parent-div h1 {
+  text-align: center;
+  font-size: 60px;
+  width: 80%;
+  font-weight: 80;
+}
+.parallax-parent-div p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 100s;
+  text-align: center;
+}
+.parallax-parent-div button {
+  width: 200px;
+  height: 50px;
+  border-color: transparent;
+  background-color: blueviolet;
+  color: white;
+}
+/* Small Parallax Section ends here  */
+/* Limitless Options starts here  */
+.Limitless-section-div {
+  height: 130vh;
+  background-color: white;
+}
+.Limitless-parent-div {
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Limitless-parent-div h1 {
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 130;
+  text-align: center;
+  width: 80%;
+}
+.Limitless-parent-div p {
+  text-align: center;
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 100;
+  color: rgb(170, 168, 168);
+}
+.Limitless-parent-div button {
+  width: 200px;
+  height: 50px;
+  border-color: transparent;
+  background-color: blueviolet;
+  color: white;
+  margin-bottom: 30px;
+}
+.Limitless-parent-div div {
+  height: 615px;
+  width: 80%;
+}
+.Limitless-parent-div div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+/* Limitless Options ends here  */
+/* projects staers here  */
+.Projects-section-div {
+  height: 135.3vh;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Projects-parent-div {
+  height: 135.3vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.Projects-parent-div h1 {
+  margin-top: 40px;
+  font-weight: 100;
+}
+.Projects-parent-div p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+.prioject-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.prioject-div div {
+  width: calc(100% / 4);
+}
+.prioject-div div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* projects ends here  */
+/* Customers section starts here  */
+.Customers-section-div {
+  height: 60vh;
+  background-image: url(water.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.Customers-parent-div {
+  height: 60vh;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.Customers-parent-div h1 {
+  font-weight: 100;
+}
+.Customers-parent-div p {
+  font-weight: 50;
+  font-size: small;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 90%;
+}
+.Customers-parent-div div {
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.Customers-parent-div div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+/* Customers section ends here  */
+/* client section starts here  */
+.Clients-section-div {
+  height: 50vh;
+  background-color: white;
+}
+.Clients-parent-div {
+  height: 50vh;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Clients-parent-div h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+  font-weight: 100;
+}
+.logo-div {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+.logo-div div {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: transparent;
+}
+.logo-div div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+/* client section ends here  */
+/* cta starts here  */
+.cta-section-div {
+  height: 40vh;
+  background-color: rgb(236, 236, 236);
+}
+.cta-parent-div {
+  height: 40vh;
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+}
+.cta-parent-div h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 150;
+}
+.cta-parent-div button {
+  height: 50px;
+  width: 200px;
+  border-color: transparent;
+  background-color: blueviolet;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* cta ends here  */
+/* footer starts here  */
+.footer-section-div {
+  height: 30vh;
+  background-color: black;
+  color: white;
+}
+.footer-parent-div {
+  height: 30vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-parent-div h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+/* footer ends here  */
+
+/* media query starts here  */
+@media (max-width: 1024px) {
+  .Projects-section-div {
+    height: auto;
+  }
+  .Projects-parent-div {
+    height: auto;
+  }
+  .prioject-div div {
+    width: calc(100% / 2);
+  }
+}
+@media (max-width: 834px) {
+  .nav-bar-parent-div button {
+    display: none;
+  }
+  #search {
+    display: none;
+  }
+  #menu {
+    display: inline;
+  }
+  /* nav bar ends here  */
+  .hero-page-parent-div div {
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  .hero-page-parent-div p {
+    width: 90%;
+    font-size: x-small;
+  }
+  .hero-page-section-div {
+    height: auto;
+  }
+  .hero-page-parent-div h1 {
+    font-size: 30px;
+    width: 90%;
+    font-weight: 70;
+  }
+  /* hero page ends here  */
+  .seo-section-div {
+    height: auto;
+  }
+  .seo-parent-div {
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+  .seo-parent-div div {
+    width: 100%;
+    height: auto;
+  }
+  .seo-parent-div div p {
+    width: 98%;
+    font-size: x-small;
+  }
+  /* seo section ends here  */
+  .portfolio-section-div {
+    height: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+  }
+  .portfolio-parent-div {
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+  .portfolio-parent-div div {
+    width: 100%;
+    height: auto;
+  }
+  .portfolio-parent-div div p {
+    width: 98%;
+    font-size: x-small;
+  }
+  /* portfolio ends here  */
+  .paraiiax-section-div {
+    height: auto;
+  }
+  .parallax-parent-div {
+    height: auto;
+  }
+  .parallax-parent-div h1 {
+    font-size: 30px;
+    width: 90%;
+    font-weight: 70;
+  }
+  .parallax-parent-div p {
+    width: 90%;
+    font-size: x-small;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .parallax-parent-div button {
+    margin-bottom: 10px;
+  }
+  /* parallax ends here  */
+  .Limitless-section-div {
+    height: auto;
+  }
+  .Limitless-parent-div {
+    height: auto;
+  }
+  .Limitless-parent-div h1 {
+    font-size: 30px;
+    width: 90%;
+    font-weight: 70;
+  }
+  .Limitless-parent-div p {
+    width: 90%;
+    font-size: x-small;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .Limitless-parent-div div {
+    height: auto;
+    width: 100%;
+  }
+  /* limitless section ends here  */
+  .Customers-parent-div h1 {
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 70;
+  }
+  .Customers-parent-div h4 {
+    padding-bottom: 10px;
+    font-weight: 100;
+  }
+  /* customers section end here  */
+  .Clients-section-div {
+    height: auto;
+  }
+  .Clients-parent-div {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .logo-div {
+    gap: 5px;
+  }
+  .logo-div div {
+    height: auto;
+    width: auto;
+  }
+  /* clients section ends here  */
+  .cta-section-div {
+    height: auto;
+  }
+  .cta-parent-div {
+    height: auto;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .cta-parent-div button {
+    width: 95%;
+  }
+  .footer-section-div {
+    height: auto;
+  }
+  .footer-parent-div h4 {
+    font-size: x-small;
+    font-weight: 50;
+  }
+}
+@media (max-width: 768px) {
+  .Projects-section-div {
+    height: auto;
+  }
+  .Projects-parent-div {
+    height: auto;
+  }
+  .prioject-div div {
+    width: calc(100% / 1);
+  }
+}
+@media (max-width: 480px) {
+  .logo-div div {
+    height: auto;
+    width: auto;
+  }
+}
